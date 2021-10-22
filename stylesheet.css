@@ -1,0 +1,87 @@
+body {
+  margin: auto;
+  font-family: "Courier New";
+}
+li {
+  text-decoration: none;
+  list-style: none;
+  float: left;
+}
+.container {
+  width: 1150px;
+  padding: 5px 15px;
+  margin: auto;
+}
+.top-wrapper {
+  padding: 100px 0 100px 0;
+  background-image: url(file:///C:/Users/ajeng/Downloads/undraw_book_lover_mkck.svg);
+  background-size: cover;
+  color: #26292c;
+  text-align: center;
+}
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 8px;
+}
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+.btn-wrapper {
+  margin: 15px 0;
+}
+.btn-wrapper p {
+  margin: 8px 0;
+}
+.testimonial {
+  background-color: #aa6943;
+}
+.joinwithus {
+  background-color: #81531a;
+  margin-right: 15px;
+}
+.btn {
+  padding: 10px 20px;
+  color: #f8f8f2;
+  display: inline-block;
+  opacity: 0.5;
+  border-radius: 2px;
+}
+.btn:hover {
+  opacity: 1;
+}
+header {
+  height: 50px;
+  width: 85%;
+  position: fixed;
+  top: 0px;
+  z-index: 5;
+}
+.logo {
+  width: 120px;
+  margin-top: 15px;
+}
+.header-left {
+  line-height: 50px;
+  float: left;
+  font-size: 25px;
+}
+.header-right {
+  float: right;
+  transition: all 0.5s;
+}
+.header-right li{
+  line-height: 50px;
+  padding: 0 20px;
+  color :rgba(168, 120, 47, 0.89);
+}
+footer p {
+  color: #26292c;
+  font-size: 15px;
+}
+footer {
+  padding-top: 30px;
+  background: #f7d283;
+}
